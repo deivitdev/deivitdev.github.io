@@ -1,4 +1,4 @@
-name = "personal-website"
+name = "landingpage"
 compatibility_date = "2023-01-01"
 
 [site]
@@ -10,4 +10,4 @@ upload.format = "directory"
 output_directory = "."
 
 [env.production]
-routes = [{pattern = "*", zone_name = "personal-website"}]
+routes = [{pattern = "*", zone_name = "landingpage"}]
