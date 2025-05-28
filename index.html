@@ -130,16 +130,24 @@
                     <div class="settings-item">
                         <div class="setting-icon"><i class="fas fa-info-circle"></i></div>
                         <div class="setting-content">
-                            <h3>Developer Info</h3>
-                            <p>Semi-senior Android developer with 3+ years experience creating performant, user-friendly mobile applications using modern Android technologies and architectural patterns.</p>
+                            <h3>Developer Profile</h3>
+                            <p>Passionate Android developer with 3+ years crafting exceptional mobile experiences that users love. My expertise in Kotlin and Jetpack Compose allows me to build modern, responsive apps with clean architecture and pixel-perfect UI implementations.</p>
+                            <p>I specialize in transforming complex requirements into intuitive interfaces, optimizing app performance, and implementing Material Design principles for a seamless user experience. My applications consistently achieve high user retention rates through thoughtful UX design and smooth functionality.</p>
+                            <p>As a problem-solver at heart, I enjoy tackling challenging technical issues and staying at the cutting edge of Android development practices.</p>
                         </div>
                     </div>
                     
                     <div class="settings-item">
                         <div class="setting-icon"><i class="fas fa-code"></i></div>
                         <div class="setting-content">
-                            <h3>Expertise</h3>
-                            <p>Kotlin, Jetpack Compose, MVVM architecture, and creating smooth, responsive user interfaces that deliver exceptional mobile experiences.</p>
+                            <h3>Core Strengths</h3>
+                            <ul class="expertise-list">
+                                <li><span class="expertise-highlight">Modern UI Development:</span> Expert in Jetpack Compose for building beautiful, responsive interfaces with less code and better maintainability</li>
+                                <li><span class="expertise-highlight">Architecture:</span> MVVM, Clean Architecture, and modular app design for scalable, testable codebases</li>
+                                <li><span class="expertise-highlight">Performance Optimization:</span> Proficient in identifying and resolving performance bottlenecks for smooth user experiences</li>
+                                <li><span class="expertise-highlight">API Integration:</span> Seamless backend connectivity using Retrofit, Coroutines, and Flow for reactive data streams</li>
+                                <li><span class="expertise-highlight">Testing:</span> Comprehensive unit and UI testing strategies using JUnit, Espresso, and Mockito</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -184,10 +192,10 @@
                         </div>
                         
                         <div class="tech-item">
-                            <div class="tech-icon hilt">
-                                <i class="fas fa-syringe"></i>
+                            <div class="tech-icon koin-logo">
+                                <img src="images/koin-logo.png" alt="Koin" class="tech-svg-logo">
                             </div>
-                            <span class="tech-name">Dagger/Hilt</span>
+                            <span class="tech-name">Koin</span>
                         </div>
                         
                         <div class="tech-item">
@@ -285,7 +293,7 @@
                             <p class="app-description">Cryptocurrency tracking app with real-time price updates and portfolio management.</p>
                             <div class="app-features">
                                 <span class="feature-tag">Clean Architecture</span>
-                                <span class="feature-tag">Dagger/Hilt</span>
+                                <span class="feature-tag">Koin</span>
                                 <span class="feature-tag">LiveData</span>
                             </div>
                         </div>
@@ -309,69 +317,68 @@
                     </div>
                 </div>
                 
-                <div class="contact-methods">
-                    <div class="contact-method">
-                        <div class="method-icon email">
-                            <i class="fas fa-envelope"></i>
+                <div class="contact-methods-container">
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon email">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Email</h4>
+                                <p>david.salazar@androiddev.com</p>
+                            </div>
                         </div>
-                        <div class="method-details">
-                            <h4>Email</h4>
-                            <p>david.salazar@androiddev.com</p>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon phone">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Phone</h4>
+                                <p>+1 234 567 890</p>
+                            </div>
                         </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon location">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Location</h4>
+                                <p>Durazno, Uruguay</p>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/deivitdev" target="_blank" class="contact-method-link">
+                            <div class="contact-method clickable">
+                                <div class="method-icon github">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>GitHub</h4>
+                                    <p>github.com/deivitdev</p>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/deivitdev/" target="_blank" class="contact-method-link">
+                            <div class="contact-method clickable">
+                                <div class="method-icon linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>LinkedIn</h4>
+                                    <p>linkedin.com/in/deivitdev</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    
-                    <div class="contact-method">
-                        <div class="method-icon phone">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="method-details">
-                            <h4>Phone</h4>
-                            <p>+1 234 567 890</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-method">
-                        <div class="method-icon location">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="method-details">
-                            <h4>Location</h4>
-                            <p>Location, City, Country</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="message-form-container">
-                    <h3>Send Message</h3>
-                    <form class="message-form">
-                        <div class="input-group">
-                            <i class="fas fa-user"></i>
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="input-group">
-                            <i class="fas fa-envelope"></i>
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="input-group">
-                            <i class="fas fa-comment"></i>
-                            <textarea placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="send-button">
-                            <i class="fas fa-paper-plane"></i>
-                            <span>Send</span>
-                        </button>
-                    </form>
                 </div>
             </div>
         </section>
 
         <!-- Footer Section -->
         <footer class="site-footer">
-            <div class="social-links">
-                <a href="#" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
-            </div>
             <p>&copy; 2025 David Salazar. All rights reserved.</p>
             <p class="android-inspired">Inspired by Android Material Design</p>
         </footer>
