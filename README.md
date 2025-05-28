@@ -1,1 +1,0 @@
-# deivitdev.guithub.io
