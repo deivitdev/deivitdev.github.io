@@ -1,1 +1,382 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Salazar - Android Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Android Status Bar -->
+    <div class="status-bar">
+        <div class="status-icons">
+            <span class="time">8:25</span>
+            <div class="right-icons">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-signal"></i>
+                <i class="fas fa-battery-full"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- App Navigation Bar -->
+    <nav class="app-navbar">
+        <div class="nav-content">
+            <div class="app-icon">
+                <img src="images/android-dev.svg" alt="App Icon" class="small-icon">
+                <span>David.dev</span>
+            </div>
+            <div class="side-nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content Area (single page layout) -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="content-section">
+            <div class="section-content">
+                <div class="profile-header">
+                    <div class="profile-image">
+                        <img src="images/android-dev.svg" alt="David Salazar" class="floating">
+                    </div>
+                    <div class="profile-info">
+                        <h1>David Salazar</h1>
+                        <p class="verified"><i class="fas fa-check-circle"></i> Android Developer</p>
+                        <p class="user-bio">Semi-Senior Android Developer | Kotlin & Jetpack Compose</p>
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">8+</span>
+                                <span class="stat-label">Technologies</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="action-buttons">
+                    <a href="#contact" class="action-btn primary">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="#projects" class="action-btn secondary">
+                        <i class="fas fa-folder"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#" class="action-btn outlined">
+                        <i class="fas fa-download"></i>
+                        <span>Resume</span>
+                    </a>
+                </div>
+                
+                <div class="featured-card">
+                    <div class="card-header">
+                        <i class="fas fa-android android-icon"></i>
+                        <h3>Android Expert</h3>
+                    </div>
+                    <p>Transforming ideas into exceptional Android applications with modern development practices and cutting-edge technologies.</p>
+                    <div class="card-badges">
+                        <span class="badge"><i class="fas fa-mobile-alt"></i> Native Apps</span>
+                        <span class="badge"><i class="fas fa-paint-brush"></i> UI/UX</span>
+                        <span class="badge"><i class="fas fa-cloud"></i> API Integration</span>
+                    </div>
+                </div>
+                
+                <div class="dual-cards">
+                    <div class="mini-card">
+                        <div class="mini-card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="mini-card-content">
+                            <h3>Specialization</h3>
+                            <p>Jetpack Compose UI development and Material Design implementation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mini-card">
+                        <div class="mini-card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="mini-card-content">
+                            <h3>Current Focus</h3>
+                            <p>Learning advanced architecture patterns and Kotlin Multiplatform</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <div class="section-header">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+            </div>
+            
+            <div class="section-content">
+                <div class="settings-group">
+                    <div class="settings-item">
+                        <div class="setting-icon"><i class="fas fa-info-circle"></i></div>
+                        <div class="setting-content">
+                            <h3>Developer Info</h3>
+                            <p>Semi-senior Android developer with 3+ years experience creating performant, user-friendly mobile applications using modern Android technologies and architectural patterns.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="settings-item">
+                        <div class="setting-icon"><i class="fas fa-code"></i></div>
+                        <div class="setting-content">
+                            <h3>Expertise</h3>
+                            <p>Kotlin, Jetpack Compose, MVVM architecture, and creating smooth, responsive user interfaces that deliver exceptional mobile experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="settings-group">
+                    <h3 class="group-title">Tech Stack</h3>
+                    
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <div class="tech-icon kotlin">
+                                <span class="icon-letter">K</span>
+                            </div>
+                            <span class="tech-name">Kotlin</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon compose">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <span class="tech-name">Jetpack Compose</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon mvvm">
+                                <i class="fas fa-sitemap"></i>
+                            </div>
+                            <span class="tech-name">MVVM Architecture</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon android">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <span class="tech-name">Android SDK</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon room">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="tech-name">Room & Retrofit</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon hilt">
+                                <i class="fas fa-syringe"></i>
+                            </div>
+                            <span class="tech-name">Dagger/Hilt</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon coroutines">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <span class="tech-name">Coroutines</span>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon firebase">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <span class="tech-name">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section">
+            <div class="section-header">
+                <h2><i class="fas fa-code"></i> My Projects</h2>
+            </div>
+            
+            <div class="section-content">
+                <div class="app-list">
+                    <!-- App Listing 1 -->
+                    <div class="app-item">
+                        <div class="app-icon-container">
+                            <div class="app-icon health">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                        </div>
+                        <div class="app-details">
+                            <div class="app-title-row">
+                                <h3>HealthTrack</h3>
+                                <div class="app-rating">
+                                    <span>4.8</span>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="app-developer">Personal Project • Health & Fitness</p>
+                            <p class="app-description">Android fitness application built with Kotlin and Jetpack Compose that tracks workouts and health metrics.</p>
+                            <div class="app-features">
+                                <span class="feature-tag">MVVM</span>
+                                <span class="feature-tag">Room</span>
+                                <span class="feature-tag">Compose</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- App Listing 2 -->
+                    <div class="app-item">
+                        <div class="app-icon-container">
+                            <div class="app-icon weather">
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                        </div>
+                        <div class="app-details">
+                            <div class="app-title-row">
+                                <h3>WeatherNow</h3>
+                                <div class="app-rating">
+                                    <span>4.7</span>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="app-developer">Personal Project • Weather</p>
+                            <p class="app-description">Real-time weather application with location tracking, forecast predictions and custom animations.</p>
+                            <div class="app-features">
+                                <span class="feature-tag">Retrofit</span>
+                                <span class="feature-tag">Coroutines</span>
+                                <span class="feature-tag">Location API</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- App Listing 3 -->
+                    <div class="app-item">
+                        <div class="app-icon-container">
+                            <div class="app-icon crypto">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="app-details">
+                            <div class="app-title-row">
+                                <h3>CryptoTracker</h3>
+                                <div class="app-rating">
+                                    <span>4.6</span>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="app-developer">Personal Project • Finance</p>
+                            <p class="app-description">Cryptocurrency tracking app with real-time price updates and portfolio management.</p>
+                            <div class="app-features">
+                                <span class="feature-tag">Clean Architecture</span>
+                                <span class="feature-tag">Dagger/Hilt</span>
+                                <span class="feature-tag">LiveData</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <div class="section-header">
+                <h2><i class="fas fa-envelope"></i> Get in Touch</h2>
+            </div>
+            
+            <div class="section-content">
+                <div class="contact-profile">
+                    <img src="images/android-dev.svg" alt="Profile" class="small-icon">
+                    <div class="contact-details">
+                        <h3>David Salazar</h3>
+                        <p class="online-status"><span class="status-dot"></span> Online - Replies Fast</p>
+                    </div>
+                </div>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="method-icon email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>Email</h4>
+                            <p>david.salazar@androiddev.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="method-icon phone">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>Phone</h4>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="method-icon location">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="method-details">
+                            <h4>Location</h4>
+                            <p>Location, City, Country</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="message-form-container">
+                    <h3>Send Message</h3>
+                    <form class="message-form">
+                        <div class="input-group">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <i class="fas fa-comment"></i>
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="send-button">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Send</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <div class="social-links">
+                <a href="#" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2025 David Salazar. All rights reserved.</p>
+            <p class="android-inspired">Inspired by Android Material Design</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
